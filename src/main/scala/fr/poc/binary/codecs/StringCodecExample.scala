@@ -2,6 +2,7 @@ package fr.poc.binary.codecs
 
 import scodec._
 import scodec.bits.BitVector
+import scodec.codecs.implicits._
 
 object StringCodecExample extends App {
 
